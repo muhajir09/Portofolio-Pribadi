@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Ahmad Muhajir</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="Foto Portofolio.png" alt="Foto Profil" id="nav-profile-pic">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya <span class="highlight">Ahmad Muhajir</span></h1>
+            <h2>Mahasiswa Teknik Informatika | Software Engineer</h2>
+            <p id="tentang">Saat ini saya sedang menempuh pendidikan di Universitas Pamulang. Saya memiliki minat besar dalam pengembangan web terpadu, pemanfaatan Artificial Intelligence, serta perancangan sistem penunjang keputusan dan digitalisasi proses administrasi.</p>
+            <a href="#proyek" class="btn">Lihat Proyek Saya</a>
+        </div>
+    </section>
+
+    <section id="proyek" class="projects">
+        <h2>Proyek <span class="highlight">Terbaru</span></h2>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Web Informasi & PPDB Sekolah</h3>
+                    <p>Sistem informasi sekolah dan Penerimaan Peserta Didik Baru (PPDB) yang diimplementasikan khusus untuk pengelolaan data di SMK YPUI Parung.</p>
+                    <div class="tags"><span>Web Dev</span> <span>Laravel</span></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Sistem Absensi Berbasis QR Code</h3>
+                    <p>Aplikasi absensi siswa berbasis web menggunakan teknologi QR Code untuk mempercepat presensi harian dan pencatatan secara real-time.</p>
+                    <div class="tags"><span>Web Dev</span> <span>QR Tech</span></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Sistem Pelanggaran Siswa</h3>
+                    <p>Aplikasi custom berbasis mobile/web yang dibangun untuk mencatat dan mengelola data riwayat pelanggaran kedisiplinan siswa secara efisien.</p>
+                    <div class="tags"><span>AppSheet</span> <span>Manajemen Data</span></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Responsive To-Do List</h3>
+                    <p>Aplikasi manajemen tugas antarmuka responsif yang memanfaatkan teknologi Local Storage untuk menyimpan data langsung di browser pengguna secara permanen.</p>
+                    <div class="tags"><span>HTML/CSS/JS</span> <span>Local Storage</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <h2>Mari <span class="highlight">Terhubung</span></h2>
+        <p>Lihat lebih banyak mengenai karya saya atau hubungi saya melalui platform di bawah ini.</p>
+        <div class="social-links">
+            <a href="https://github.com/UsernameAnda" target="_blank" class="social-icon"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/UsernameAnda" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="mailto:emailanda@gmail.com" class="social-icon"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ahmad Muhajir. All Rights Reserved.</p>
+    </footer>
+
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="enlarged-img">
+    </div>
+    
+     <script src="script.js?v=1"></script>
+</body>
+</html>
